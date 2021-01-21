@@ -10,6 +10,8 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="script.js"></script>
+    
 </head>
 
 <body class="color_de_fondo">
@@ -47,29 +49,5 @@
     </form>
 
 </body>
-<script>
-
-    var submit = () => {
-
-        var nombre = $("input[name='nombre']").val();
-        var apellidos = $("input[name='apellidos']").val();
-        var nacido = $("input[name='nacido']").val();
-        var hm = $("input[name='hm']").val();
-        var nacionalidad = $("select[name='nacionalidad']").val();
-        //var radio = $("input[name='radio']").val()
-        var param = {
-
-            nombre: nombre,
-            apellidos: apellidos,
-            nacido: nacido,
-            hm: hm,
-            nacionalidad: nacionalidad,
-            //radio: radio,
-        }
-
-        console.log(param);
-    }
-
-</script>
 
 </html>
